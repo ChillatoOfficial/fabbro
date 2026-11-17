@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fabbro"
+dynamic = ["version"]
+description = "Agente di coding da terminale (TUI) basato su agentecore"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=8",
+    "rich",
+    "httpx",
+    "agentecore @ git+https://github.com/ChillatoOfficial/agentecore.git",
+]
+
+[project.scripts]
+fabbro = "fabbro.app:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "fabbro.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["fabbro*"]
+
+[tool.setuptools.package-data]
+fabbro = ["prompts/*.txt"]

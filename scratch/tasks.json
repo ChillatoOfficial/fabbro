@@ -1,0 +1,28 @@
+[
+  {
+    "titolo": "Studiare Python",
+    "priorita": 3,
+    "creato": "2026-11-17T08:15:14.268727",
+    "completato": true,
+    "tags": [
+      "studio",
+      "urgente"
+    ]
+  },
+  {
+    "titolo": "Fare la spesa",
+    "priorita": 1,
+    "creato": "2026-11-17T08:15:14.268975",
+    "completato": false,
+    "tags": [
+      "casa"
+    ]
+  },
+  {
+    "titolo": "Chiamare il dentista",
+    "priorita": 2,
+    "creato": "2026-11-17T08:15:14.269227",
+    "completato": false,
+    "tags": []
+  }
+]

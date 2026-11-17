@@ -1,0 +1,4 @@
+textual>=8
+rich
+httpx
+agentecore @ git+https://github.com/ChillatoOfficial/agentecore.git
